@@ -1,4 +1,6 @@
 import { Phone, CalendarX2, BarChart3, ShieldCheck, Settings, FileSearch } from "lucide-react";
+import RevenueCalculatorSection from "./RevenueCalculatorSection";
+import GovernanceScorecardSection from "./GovernanceScorecardSection";
 
 const track1 = [
   {
@@ -53,7 +55,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Track 1 */}
-        <div className="mb-16">
+        <div className="mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-semibold mb-8">
             Track 1: Revenue Recovery Platform
           </div>
@@ -69,10 +71,13 @@ const ServicesSection = () => {
               </div>
             ))}
           </div>
+
+          {/* Track 1 Lead Magnet */}
+          <RevenueCalculatorSection />
         </div>
 
         {/* Track 2 */}
-        <div>
+        <div className="mt-16">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-8">
             Track 2: Enterprise AI Governance
           </div>
@@ -87,6 +92,9 @@ const ServicesSection = () => {
               </div>
             ))}
           </div>
+
+          {/* Track 2 Lead Magnet */}
+          <GovernanceScorecardSection />
         </div>
       </div>
     </section>
