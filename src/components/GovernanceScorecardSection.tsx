@@ -22,7 +22,7 @@ type FormErrors = Partial<Record<keyof FormData | "general", string>>;
 
 // NOTE: In production, replace this direct webhook call with a backend proxy
 // (e.g., a serverless function) so the URL is not exposed in client-side code.
-const WEBHOOK_URL = import.meta.env.VITE_TRACK2_WEBHOOK_URL as string | undefined;
+const WEBHOOK_URL = import.meta.env.VITE_LEAD_CAPTURE_WEBHOOK_URL as string | undefined;
 
 export default function GovernanceScorecardSection() {
   const navigate = useNavigate();

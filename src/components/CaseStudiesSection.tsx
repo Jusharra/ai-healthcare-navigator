@@ -128,7 +128,7 @@ const CaseStudiesSection = () => {
   return (
     <section id="case-studies" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
+        <div className="text-center mb-14 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
             Real Results for Real Practices
           </h2>
@@ -138,15 +138,16 @@ const CaseStudiesSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {studies.map((s) => (
+          {studies.map((s, idx) => (
             <div
               key={s.org}
-              className="rounded-xl border border-border bg-card p-8 shadow-card hover:shadow-card-hover transition-shadow duration-300 flex flex-col"
+              className="rounded-xl border border-border bg-card p-8 shadow-card hover:shadow-card-hover hover:scale-[1.02] transition-all duration-300 flex flex-col opacity-0 animate-fade-in-up group"
+              style={{ animationDelay: `${0.2 + idx * 0.1}s` }}
             >
               {/* Header */}
               <div className="flex items-center gap-3 mb-5">
-                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-                  <s.icon className="h-5 w-5 text-primary" />
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors duration-300">
+                  <s.icon className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-300" />
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-foreground">{s.org}</h3>

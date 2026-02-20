@@ -45,7 +45,7 @@ const ServicesSection = () => {
   return (
     <section id="services" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
+        <div className="text-center mb-14 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
             Complete AI Systems, Not Standalone Tools
           </h2>
@@ -56,14 +56,18 @@ const ServicesSection = () => {
 
         {/* Track 1 */}
         <div className="mb-6">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-semibold mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-semibold mb-8 opacity-0 animate-slide-in-right" style={{ animationDelay: "0.3s" }}>
             Track 1: Revenue Recovery Platform
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {track1.map((s) => (
-              <div key={s.title} className="rounded-xl border border-border bg-background p-6 shadow-card">
-                <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                  <s.icon className="h-5 w-5 text-accent" />
+            {track1.map((s, idx) => (
+              <div
+                key={s.title}
+                className="rounded-xl border border-border bg-background p-6 shadow-card hover:shadow-card-hover hover:scale-105 hover:border-accent/30 transition-all duration-300 opacity-0 animate-fade-in-up group cursor-pointer"
+                style={{ animationDelay: `${0.4 + idx * 0.1}s` }}
+              >
+                <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-4 group-hover:bg-accent/20 transition-colors duration-300">
+                  <s.icon className="h-5 w-5 text-accent group-hover:scale-110 transition-transform duration-300" />
                 </div>
                 <h3 className="font-display font-bold text-foreground mb-2">{s.title}</h3>
                 <p className="text-sm text-muted-foreground mb-4">{s.desc}</p>
@@ -78,14 +82,18 @@ const ServicesSection = () => {
 
         {/* Track 2 */}
         <div className="mt-16">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-8 opacity-0 animate-slide-in-left" style={{ animationDelay: "0.7s" }}>
             Track 2: Enterprise AI Governance
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {track2.map((s) => (
-              <div key={s.title} className="rounded-xl border border-border bg-background p-6 shadow-card">
-                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <s.icon className="h-5 w-5 text-primary" />
+            {track2.map((s, idx) => (
+              <div
+                key={s.title}
+                className="rounded-xl border border-border bg-background p-6 shadow-card hover:shadow-card-hover hover:scale-105 hover:border-primary/30 transition-all duration-300 opacity-0 animate-fade-in-up group cursor-pointer"
+                style={{ animationDelay: `${0.8 + idx * 0.1}s` }}
+              >
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                  <s.icon className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-300" />
                 </div>
                 <h3 className="font-display font-bold text-foreground mb-2">{s.title}</h3>
                 <p className="text-sm text-muted-foreground">{s.desc}</p>
