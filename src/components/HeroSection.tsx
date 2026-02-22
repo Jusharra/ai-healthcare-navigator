@@ -6,6 +6,7 @@ const badges = [
   { icon: ShieldCheck, text: "ISO 42001 & 27001 Lead Auditor" },
   { icon: Award, text: "HIPAA Compliant by Design" },
   { icon: Clock, text: "6+ Years Healthcare Cybersecurity" },
+  { icon: Clock, text: "10+ Years Systems Architecture & Engineering" },
 ];
 
 const HeroSection = () => {
@@ -37,7 +38,7 @@ const HeroSection = () => {
             for Healthcare
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-6 leading-relaxed opacity-0 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-            The only firm that both builds revenue-generating AI systems and governs them with ISO 27001 and 42001 frameworks exclusively for healthcare practices and enterprises.
+            The only firm that both builds revenue-generating AI systems and governs them with HiTrust, ISO 27001, 27701 and 42001 frameworks exclusively for healthcare practices and enterprises.
           </p>
 
           {/* AI Voice Agent CTA */}
