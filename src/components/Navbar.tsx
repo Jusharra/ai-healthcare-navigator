@@ -12,6 +12,7 @@ const Navbar = () => {
     { label: "Who We Serve", href: "#who-we-serve" },
     { label: "Why Us", href: "#why-us" },
     { label: "FAQ", href: "#faq" },
+    { label: "Resources", href: "/resources" },
   ];
 
   return (
