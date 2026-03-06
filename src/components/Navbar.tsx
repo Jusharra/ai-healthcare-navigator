@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-2 group">
             <Shield className="h-7 w-7 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
-            <span className="font-display font-bold text-lg text-foreground">First Choice Cyber</span>
+            <span className="font-display font-bold text-lg text-foreground">First-Choice Cyber</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
