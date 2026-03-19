@@ -1,20 +1,20 @@
-import { Wrench, Stethoscope, BadgeCheck } from "lucide-react";
+import { Wrench, Globe, BadgeCheck } from "lucide-react";
 
 const reasons = [
   {
     icon: Wrench,
     title: "We Build AND Govern AI",
-    desc: "Most governance consultants advise—they don't build. We deploy operational AI systems AND govern them with ISO 42001 frameworks. We understand both sides because we operate on both sides.",
+    desc: "Most governance consultants advise — they don't build. We deploy operational AI systems and govern them with ISO 42001 frameworks. We understand both sides because we operate on both sides.",
   },
   {
-    icon: Stethoscope,
-    title: "Healthcare-Specific Expertise",
-    desc: "We specialize exclusively in healthcare. We understand HIPAA compliance, clinical workflows, EHR integrations (Dentrix, Epic, Athenahealth), and regulatory requirements that generic AI agencies simply don't.",
+    icon: Globe,
+    title: "Regulated Industry Expertise",
+    desc: "We work across healthcare, construction, energy, and other regulated sectors. We understand the compliance frameworks, operational realities, and regulatory exposure that generic AI firms simply don't.",
   },
   {
     icon: BadgeCheck,
     title: "ISO 42001 + ISO 27001 Certified",
-    desc: "Not just consultants with a framework—engineers with certifications. Your AI is compliant from day one with audit-ready documentation and proven security controls.",
+    desc: "Not just consultants with a framework — engineers with certifications. Your AI is governed from day one with audit-ready documentation and proven security controls.",
   },
 ];
 

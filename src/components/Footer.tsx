@@ -10,7 +10,7 @@ const Footer = () => {
             <span className="font-display font-bold text-foreground">First-Choice Cyber</span>
           </div>
           <p className="text-sm text-muted-foreground text-center">
-            Serving healthcare practices and enterprises in Bakersfield, Los Angeles, and nationwide.
+            AI Governance & Assurance Engineering — serving regulated enterprises nationwide.
           </p>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} First-Choice Cyber. All rights reserved.

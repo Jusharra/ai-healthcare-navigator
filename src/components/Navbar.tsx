@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Shield, Phone } from "lucide-react";
+import { Menu, X, Shield, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BookingModal from "./BookingModal";
 
@@ -8,8 +8,8 @@ const Navbar = () => {
 
   const links = [
     { label: "Services", href: "#services" },
-    { label: "Case Studies", href: "#case-studies" },
-    { label: "Who We Serve", href: "#who-we-serve" },
+    { label: "Insights", href: "#industry-challenges" },
+    { label: "Industries", href: "#industries" },
     { label: "Why Us", href: "#why-us" },
     { label: "FAQ", href: "#faq" },
     { label: "Resources", href: "/resources" },
@@ -34,12 +34,12 @@ const Navbar = () => {
                 {l.label}
               </a>
             ))}
-            <a href="tel:661-489-8106">
-              <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold flex items-center gap-2 animate-pulse">
-                <Phone className="h-4 w-4" />
-                Call AI Agent: 661-489-8106
+            <BookingModal>
+              <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold flex items-center gap-2">
+                <CalendarDays className="h-4 w-4" />
+                Schedule a Consultation
               </Button>
-            </a>
+            </BookingModal>
           </div>
 
           <button
@@ -65,12 +65,14 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
-          <a href="tel:661-489-8106" className="opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            <Button className="w-full mt-2 bg-accent text-accent-foreground hover:bg-accent/90 font-semibold flex items-center justify-center gap-2 animate-pulse">
-              <Phone className="h-4 w-4" />
-              Call AI Agent: 661-489-8106
-            </Button>
-          </a>
+          <div className="opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+            <BookingModal>
+              <Button className="w-full mt-2 bg-accent text-accent-foreground hover:bg-accent/90 font-semibold flex items-center justify-center gap-2">
+                <CalendarDays className="h-4 w-4" />
+                Schedule a Consultation
+              </Button>
+            </BookingModal>
+          </div>
         </div>
       )}
     </nav>

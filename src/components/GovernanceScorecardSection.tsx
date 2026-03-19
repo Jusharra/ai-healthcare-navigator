@@ -209,7 +209,7 @@ export default function GovernanceScorecardSection() {
           <div>
             <input
               type="email"
-              placeholder="sarah.johnson@healthsystem.com"
+              placeholder="your.name@company.com"
               value={form.email}
               onChange={(e) => setField("email", e.target.value)}
               className={inputClass("email")}
@@ -285,11 +285,11 @@ export default function GovernanceScorecardSection() {
               className={selectClass("industry", !!form.industry)}
             >
               <option value="">Select industry</option>
-              <option value="Healthcare Provider">Healthcare Provider</option>
-              <option value="Health System">Health System</option>
-              <option value="Payer/Insurance">Payer/Insurance</option>
-              <option value="Medical Device">Medical Device</option>
-              <option value="Other Healthcare">Other Healthcare</option>
+              <option value="Healthcare">Healthcare</option>
+              <option value="Construction & Infrastructure">Construction &amp; Infrastructure</option>
+              <option value="Energy & Industrial">Energy &amp; Industrial</option>
+              <option value="Financial Services">Financial Services</option>
+              <option value="Other">Other</option>
             </select>
             {errors.industry && (
               <p className="text-red-600 text-xs mt-1">{errors.industry}</p>
@@ -372,7 +372,7 @@ export default function GovernanceScorecardSection() {
 
       {/* Social proof */}
       <p className="text-center text-sm text-gray-600 mt-6">
-        📊 Used by 50+ healthcare enterprises
+        Trusted by enterprises in regulated industries
       </p>
     </div>
   );

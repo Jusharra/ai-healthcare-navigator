@@ -138,13 +138,12 @@ export default function RevenueCalculatorSection() {
     >
       {/* Header */}
       <div className="text-center mb-8">
-        <div className="text-3xl mb-2">💰</div>
+        <div className="text-3xl mb-2">📊</div>
         <h3 className="font-display text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-          FREE REVENUE RECOVERY CALCULATOR
+          FREE OPERATIONAL EFFICIENCY ASSESSMENT
         </h3>
         <p className="text-gray-700 text-lg mb-4">
-          See How Much Revenue You're Losing to Missed Calls, No-Shows, and Hold
-          Times
+          See How Much Operational Gaps Are Costing You
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-700">
           <span>✓ Takes 60 seconds</span>
@@ -324,7 +323,7 @@ export default function RevenueCalculatorSection() {
                 Calculating...
               </>
             ) : (
-              "GET MY FREE CALCULATOR →"
+              "GET MY FREE ASSESSMENT →"
             )}
           </button>
         </div>
@@ -332,7 +331,7 @@ export default function RevenueCalculatorSection() {
 
       {/* Social proof */}
       <p className="text-center text-sm text-gray-600 mt-6">
-        📊 Used by 500+ healthcare practices
+        Trusted by organizations in regulated industries
       </p>
     </div>
   );

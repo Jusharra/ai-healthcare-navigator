@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    q: "How do I know your AI systems are actually HIPAA compliant?",
-    a: "We're ISO 27001/42001 certified with 6 years healthcare cybersecurity experience. Every system includes a Business Associate Agreement (BAA), encrypted data transmission, audit trails, and full compliance documentation for your HIPAA officer.",
+    q: "What industries do you serve?",
+    a: "We serve regulated industries where AI governance, compliance, and assurance are mission-critical. Our current focus verticals are healthcare (HIPAA, ISO 42001), construction & infrastructure (OSHA, ISO 45001), and energy & industrial (EPA, NERC CIP, API standards). We apply the same governance methodology across each sector with industry-specific expertise.",
   },
   {
-    q: "Will this replace our front desk staff?",
-    a: "No—it augments them. Your team handles in-person patients and complex issues. The AI handles overflow, after-hours, and routine inquiries. We've never seen a practice reduce headcount; they reallocate staff to higher-value work.",
+    q: "What's the difference between governance consulting and assurance engineering?",
+    a: "Governance consulting produces documentation, frameworks, and recommendations. Assurance engineering produces working systems — automated evidence pipelines, policy-as-code, control mapping, and audit-ready outputs that hold up under regulatory scrutiny and due diligence. We deliver the latter. Most firms only deliver the former.",
   },
   {
-    q: "What if patients don't like talking to AI?",
-    a: "Industry data shows 89% patient approval ratings because patients get instant answers vs. voicemail. If someone needs a human, the system transfers seamlessly with full context. Patients prefer immediate help over waiting hours for callbacks.",
+    q: "How do you work with existing compliance teams?",
+    a: "We operate as an extension of your team, not a replacement. If you have a compliance officer, legal counsel, or internal IT/security function, we plug in at the AI governance layer — the gap most compliance teams aren't staffed or trained to cover. We handle the AI-specific frameworks, evidence pipelines, and board reporting so your team can focus on what they already own.",
   },
   {
-    q: "How quickly will we see ROI?",
-    a: "Most practices see positive ROI within 3–6 months. Revenue capture starts immediately (first incremental appointment booked), no-show reduction is visible within 30 days, and staff efficiency gains accumulate weekly.",
+    q: "What does an engagement typically look like?",
+    a: "Most engagements start with an AI Risk & Governance Assessment (2–4 weeks) — a comprehensive audit of AI usage, regulatory exposure, and governance gaps, culminating in a board-ready roadmap. From there, organizations typically move to Compliance Engineering (policy-as-code, control mapping, evidence pipelines), followed by a Governance Implementation and optional Assurance Retainer for ongoing oversight.",
   },
   {
-    q: "What about integration with our existing practice management system?",
-    a: "We have pre-built integrations with Dentrix, Eaglesoft, Athenahealth, eClinicalWorks, NextGen, Epic, and other major systems. Direct two-way sync means AI books appointments that instantly appear in your calendar.",
+    q: "How quickly will we see value?",
+    a: "Assessment engagements deliver a board-ready roadmap within 2–4 weeks. Compliance engineering work typically runs 8–16 weeks depending on scope. Organizations in active due diligence or pre-audit situations can be prioritized for rapid-turnaround diagnostics.",
   },
   {
     q: "How is this different from generic AI vendors or Big 4 consultants?",
-    a: "Generic AI vendors lack healthcare compliance expertise (no HIPAA, no ISO 42001, no BAAs). Big 4 consultants advise but don't build operational systems. We do both: we build revenue-generating AI systems AND govern them with ISO 42001 frameworks—specifically for healthcare.",
+    a: "Generic AI vendors lack regulatory compliance expertise and don't build governance systems. Big 4 consultants advise but don't build operational systems — and their rates reflect that overhead. We do both: we engineer working governance systems AND provide the assurance layer that satisfies regulators, boards, and acquirers — at a fraction of the Big 4 cost.",
   },
   {
     q: "Can you help with AI governance during an acquisition or due diligence?",
-    a: "Yes. We conduct rapid AI governance diagnostics (2–4 weeks) that provide acquirers/investors with audit-ready documentation of your AI usage, risk posture, and compliance status. Prevents valuation haircuts due to governance gaps.",
+    a: "Yes. We conduct rapid AI governance diagnostics (2–4 weeks) that provide acquirers and investors with audit-ready documentation of your AI usage, risk posture, and compliance status. Addressing governance gaps before due diligence prevents valuation haircuts and deal friction.",
   },
   {
-    q: "What if our practice can't afford to disrupt operations during implementation?",
-    a: "We use phased rollouts starting with low-risk deployments (after-hours voice AI first, then expand to peak hours). Implementation typically takes 8\u201312 weeks with minimal staff training (2\u20133 hours). No 'flip the switch' disruption.",
+    q: "Do you work with organizations that aren't using AI yet?",
+    a: "Absolutely. An AI governance framework built before deployment is significantly easier and less expensive than retrofitting governance onto systems already in production. We work with organizations at all stages — pre-deployment, actively deploying, and those inheriting ungoverned AI from vendors or acquisitions.",
   },
 ];
 

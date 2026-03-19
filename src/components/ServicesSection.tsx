@@ -1,25 +1,25 @@
-import { Phone, CalendarX2, BarChart3, ShieldCheck, Settings, FileSearch } from "lucide-react";
+import { Workflow, CalendarX2, BarChart3, ShieldCheck, Settings, FileSearch } from "lucide-react";
 import RevenueCalculatorSection from "./RevenueCalculatorSection";
 import GovernanceScorecardSection from "./GovernanceScorecardSection";
 
 const track1 = [
   {
-    icon: Phone,
-    title: "Revenue Capture & Instant Response",
-    desc: "24/7 HIPAA-compliant voice AI receptionist with zero-hold-time management, insurance verification, and direct EHR integration.",
-    result: "Capture $100K–$150K in previously-lost revenue annually.",
+    icon: Workflow,
+    title: "Workflow Automation & Intelligent Response",
+    desc: "AI-powered systems that handle scheduling, intake, and customer response — available 24/7, compliant by design, integrated with your existing operational tools.",
+    result: "Reduce response times by 90% and capture revenue lost to delays.",
   },
   {
     icon: CalendarX2,
-    title: "No-Show Prevention & Schedule Optimization",
-    desc: "AI-powered no-show risk prediction (86% accuracy), automated multi-channel reminders, and waitlist slot-fill system.",
-    result: "45% reduction in no-show rates. Recover $90K–$125K annually.",
+    title: "Predictive Operations & Scheduling Optimization",
+    desc: "Machine learning models that forecast demand, optimize resource allocation, and trigger proactive interventions before problems become losses.",
+    result: "35–45% reduction in scheduling gaps. Recover $90K–$150K annually.",
   },
   {
     icon: BarChart3,
-    title: "Operational Excellence & Competitive Advantage",
-    desc: "Enterprise call analytics, scalability infrastructure, and multi-location readiness with strategic advisory.",
-    result: "$55K–$135K annual cost avoidance without new hires.",
+    title: "Operational Intelligence & Scalability",
+    desc: "Enterprise analytics, performance dashboards, and infrastructure that scales across multiple locations — with strategic advisory to drive continuous improvement.",
+    result: "$50K–$135K annual cost avoidance without adding headcount.",
   },
 ];
 
@@ -27,7 +27,7 @@ const track2 = [
   {
     icon: FileSearch,
     title: "AI Risk & Governance Diagnostic",
-    desc: "Comprehensive AI usage audit, HIPAA AI compliance gap analysis, ISO 42001 assessment, and board-ready remediation roadmap.",
+    desc: "Comprehensive AI usage audit, regulatory compliance gap analysis, ISO 42001 assessment, and board-ready remediation roadmap.",
   },
   {
     icon: Settings,
@@ -36,8 +36,8 @@ const track2 = [
   },
   {
     icon: ShieldCheck,
-    title: "Continuous AI Assurance Retainer",
-    desc: "External Head of AI Governance—quarterly board reporting, ongoing policy maintenance, vendor management, and incident response.",
+    title: "Continuous Assurance",
+    desc: "Quarterly board reporting, ongoing policy maintenance, vendor management, and incident response.",
   },
 ];
 
@@ -47,17 +47,17 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Complete AI Systems, Not Standalone Tools
+            Engineering Governance, Not Just Advising It
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Two integrated tracks designed for healthcare practices and enterprises.
+            Two integrated tracks — operational AI systems and enterprise governance — delivered by engineers, not just consultants.
           </p>
         </div>
 
         {/* Track 1 */}
         <div className="mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-semibold mb-8 opacity-0 animate-slide-in-right" style={{ animationDelay: "0.3s" }}>
-            Track 1: Revenue Recovery Platform
+            Track 1: Operational AI Systems
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {track1.map((s, idx) => (
