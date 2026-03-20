@@ -42,6 +42,22 @@ const WhyUsSection = () => {
             </div>
           ))}
         </div>
+
+        {/* CTA */}
+        <div className="text-center mt-14">
+          <a
+            href="/#audit-offers"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-lg font-bold text-white text-base shadow-lg transition-colors"
+            style={{ background: "#FF6B35" }}
+            onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#e55a28"; }}
+            onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#FF6B35"; }}
+          >
+            Book Your Revenue Recovery Audit →
+          </a>
+          <p className="text-sm text-muted-foreground mt-3">
+            Schedule Your Revenue Recovery Audit for $997 · Audit cost applies toward your full system
+          </p>
+        </div>
       </div>
     </section>
   );

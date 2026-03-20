@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { Menu, X, Shield, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import BookingModal from "./BookingModal";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
-    { label: "Services", href: "#services" },
-    { label: "Insights", href: "#industry-challenges" },
-    { label: "Industries", href: "#industries" },
-    { label: "Why Us", href: "#why-us" },
-    { label: "FAQ", href: "#faq" },
+    { label: "Services", href: "/#services" },
+    { label: "Case Studies", href: "/#industry-challenges" },
+    { label: "Portfolio", href: "/#portfolio" },
+    { label: "Why Us", href: "/#why-us" },
+    { label: "FAQ", href: "/#faq" },
     { label: "Resources", href: "/resources" },
   ];
 
@@ -19,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border opacity-0 animate-fade-in-down">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="flex items-center gap-2 group">
+          <a href="/" className="flex items-center gap-2 group">
             <Shield className="h-7 w-7 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
             <span className="font-display font-bold text-lg text-foreground">First-Choice Cyber</span>
           </a>
@@ -34,12 +33,12 @@ const Navbar = () => {
                 {l.label}
               </a>
             ))}
-            <BookingModal>
+            <a href="tel:6614898106">
               <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold flex items-center gap-2">
                 <CalendarDays className="h-4 w-4" />
-                Schedule a Consultation
+                Call Now (661) 489-8106
               </Button>
-            </BookingModal>
+            </a>
           </div>
 
           <button
@@ -66,12 +65,12 @@ const Navbar = () => {
             </a>
           ))}
           <div className="opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            <BookingModal>
+            <a href="tel:6614898106">
               <Button className="w-full mt-2 bg-accent text-accent-foreground hover:bg-accent/90 font-semibold flex items-center justify-center gap-2">
                 <CalendarDays className="h-4 w-4" />
-                Schedule a Consultation
+                Call Now (661) 489-8106
               </Button>
-            </BookingModal>
+            </a>
           </div>
         </div>
       )}

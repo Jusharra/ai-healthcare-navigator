@@ -151,7 +151,7 @@ export default function GovernanceScorecardSection() {
       <div className="text-center mb-8">
         <div className="text-3xl mb-2">🛡️</div>
         <h3 className="font-display text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-          FREE AI GOVERNANCE READINESS SCORECARD
+          AI GOVERNANCE ASSESSMENT
         </h3>
         <p className="text-gray-700 text-lg mb-4">
           Discover Your AI Governance Gaps Before Audit, Due Diligence, or
@@ -364,7 +364,7 @@ export default function GovernanceScorecardSection() {
                 Processing...
               </>
             ) : (
-              "GET MY FREE SCORECARD →"
+              "Get Your Assessment →"
             )}
           </button>
         </div>

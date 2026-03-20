@@ -1,10 +1,11 @@
-import { ShieldCheck, Clock } from "lucide-react";
+import { ShieldCheck, Award, Database, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import BookingModal from "./BookingModal";
 
 const badges = [
-  { icon: ShieldCheck, text: "ISO 42001 & 27001 Lead Auditor" },
-  { icon: Clock, text: "10+ Years Systems Architecture & Engineering" },
+  { icon: Award, text: "ISO 42001 Lead Auditor" },
+  { icon: ShieldCheck, text: "ISO 27001 Lead Auditor" },
+  { icon: Database, text: "You Own Your Data" },
+  { icon: Zap, text: "Live in 2 Weeks" },
 ];
 
 const HeroSection = () => {
@@ -31,22 +32,22 @@ const HeroSection = () => {
 
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-foreground mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            AI Governance & Assurance Engineering{" "}
-            <span className="text-gradient">for Regulated Industries</span>
+            Customer Reactivation Systems{" "}
+            <span className="text-gradient">for High-Foot-Traffic Businesses</span>
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-            We design, implement, and audit AI governance systems that satisfy regulators, boards, and buyers — not just check boxes.
+            Dental offices. Laundromats. Auto repair. Restaurants. Medical clinics. We build the systems that automatically re-engage inactive customers — so you own the data and control the revenue.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
-            <BookingModal>
+            <a href="tel:6614898106">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold text-base px-8 py-6 shadow-xl">
-                Schedule a Consultation
+                Call Now (661) 489-8106
               </Button>
-            </BookingModal>
-            <a href="#industry-challenges">
+            </a>
+            <a href="#portfolio">
               <Button size="lg" variant="outline" className="font-semibold text-base px-8 py-6 border-primary/20 text-foreground hover:bg-primary/5">
-                See Industry Challenges
+                See Our Work
               </Button>
             </a>
           </div>
@@ -54,9 +55,9 @@ const HeroSection = () => {
           {/* Stats bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {[
+              { value: "2 Weeks", label: "Average time to go live" },
+              { value: "100%", label: "You own your customer data" },
               { value: "ISO 42001", label: "Lead Auditor Certified" },
-              { value: "ISO 27001", label: "Lead Auditor Certified" },
-              { value: "3+", label: "Regulated industries served" },
               { value: "10+", label: "Years systems engineering" },
             ].map((stat, idx) => (
               <div

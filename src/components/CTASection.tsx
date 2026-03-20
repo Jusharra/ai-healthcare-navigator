@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ShieldCheck } from "lucide-react";
-import BookingModal from "./BookingModal";
 
 const CTASection = () => {
   return (
@@ -11,14 +10,14 @@ const CTASection = () => {
             Ready to Engineer AI Governance That Actually Holds?
           </h2>
           <p className="text-primary-foreground/80 text-lg max-w-xl mx-auto mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-            Schedule a 30-minute consultation to discuss your regulatory exposure and governance gaps. No sales pressure — just clarity on where you stand and what it takes to get compliant.
+            Schedule a 60-minute consultation to discuss your regulatory exposure and governance gaps. No sales pressure — just clarity on where you stand and what it takes to get compliant.
           </p>
 
-          <BookingModal>
+          <a href="tel:6614898106">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold text-base px-10 py-6 shadow-lg">
-              Request an Assessment
+              Click to Call (661) 489-8106
             </Button>
-          </BookingModal>
+          </a>
 
           <p className="text-primary-foreground/60 text-sm mt-6 flex items-center justify-center gap-2 opacity-0 animate-fade-in" style={{ animationDelay: "1s" }}>
             <ShieldCheck className="h-4 w-4 animate-pulse" />
