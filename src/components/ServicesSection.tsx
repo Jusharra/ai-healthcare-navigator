@@ -5,20 +5,20 @@ import GovernanceScorecardSection from "./GovernanceScorecardSection";
 const track1 = [
   {
     icon: RefreshCw,
-    title: "24/7 Customer Reactivation Engine",
-    desc: "Automated recalls, birthday campaigns, maintenance alerts, slow-day promotions. SMS, email, and voice — reaching inactive customers automatically while you focus on serving customers.",
-    result: "Recover lost revenue from inactive customers on autopilot.",
+    title: "24/7 Patient Recall Engine",
+    desc: "Automated recall campaigns at 6, 12, and 18-month intervals. Birthday reminders, slow-day promotions, and missed-appointment follow-ups. SMS and email — running while your staff focuses on patient care.",
+    result: "Recover lapsed patients and fill empty slots on autopilot.",
   },
   {
     icon: Database,
-    title: "You Own Your Customer Data",
-    desc: "Your customer list lives in your own database. You own it outright. Export anytime for lending applications, M&A valuation, or business operations. No vendor lock-in. Your data, your control.",
-    result: "100% data ownership. Export anytime. No lock-in.",
+    title: "HIPAA-Compliant Patient Database",
+    desc: "Your patient list lives in your own HIPAA-compliant database. You own it outright — audit trail built in. Export anytime for lending applications, M&A valuation, or compliance reporting. No vendor lock-in.",
+    result: "100% data ownership. Audit trail included. HIPAA-ready.",
   },
   {
     icon: Plug,
     title: "Done-For-You Implementation",
-    desc: "We build the entire system for you — customer capture forms, SMS and email automations, campaign setup, and database architecture. Live in 2 weeks. Runs on autopilot.",
+    desc: "We build the entire system for you — patient intake forms, SMS and email automations, HIPAA-compliant database, and campaign setup. Live in 2 weeks. Runs on autopilot.",
     result: "Live in 2 weeks. Zero ongoing management required.",
   },
 ];
@@ -47,20 +47,20 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Build Revenue. Own Your Data. Run on Autopilot.
+            Grow Your Practice. Own Your Patient Data. Run on Autopilot.
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Two tracks built for business owners and enterprises. Start with reactivation revenue recovery — layer in AI governance when ready.
+            Two tracks built for healthcare practices and enterprises. Start with patient reactivation — layer in AI governance when ready.
           </p>
         </div>
 
         {/* Track 1 */}
         <div className="mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-semibold mb-4 opacity-0 animate-slide-in-right" style={{ animationDelay: "0.3s" }}>
-            Reactivation &amp; Revenue Recovery Systems
+            Patient Reactivation &amp; Growth Systems
           </div>
           <p className="text-muted-foreground text-base mb-8 max-w-2xl opacity-0 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
-            Stop chasing new leads. Start recovering the customers you already earned. Automated outreach, you own the data, and the system runs on autopilot.
+            Stop paying for new patient ads when your existing patients aren't coming back. Automated recall, HIPAA-compliant, and the system runs on autopilot.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             {track1.map((s, idx) => (

@@ -7,48 +7,44 @@ import {
 
 const faqs = [
   {
-    q: "How much does the reactivation system cost?",
-    a: "We offer two Revenue Recovery Audits to get started: a Quick Audit ($197, 30 min) or a Deep Audit ($397, 45–60 min). Both include a personalized recovery plan. Full reactivation systems range from $3,000–$7,000 depending on your business size and complexity. You own the system outright — no subscriptions.",
+    q: "How much does the patient recall system cost?",
+    a: "Start with a Patient Growth Audit ($997, 60 min) — credited toward full system setup. Full patient reactivation systems range from $3,000–$7,000 depending on practice size and complexity. You own the system outright — no ongoing subscriptions.",
   },
   {
-    q: "What if I don't have a customer database?",
-    a: "We build one. Website capture form, QR codes, database setup, and automation — all included. You own it from day one.",
+    q: "Is the system HIPAA compliant?",
+    a: "Yes — built in from day one. Your patient database includes an audit trail of all outreach communications, data is stored in a practice-owned environment, and we document the setup for compliance review.",
   },
   {
-    q: "Do I own my customer data?",
-    a: "100%. Your list lives in your own database. You can export it anytime for lending, M&A, or any business purpose. No vendor lock-in.",
+    q: "What if I don't have a patient database?",
+    a: "We build one. Patient intake forms, database setup, and automation are all included. You own it from day one — exportable anytime for compliance reporting, lending, or M&A.",
+  },
+  {
+    q: "Do I own my patient data?",
+    a: "100%. Your patient list lives in your own database. You can export it anytime for compliance reporting, lending applications, M&A valuation, or any business purpose. No vendor lock-in.",
   },
   {
     q: "How long does setup take?",
-    a: "Most systems are live within 2 weeks. You'll see the first reactivation campaigns running within 14 days of starting.",
+    a: "Most systems are live within 2 weeks. You'll see the first recall campaigns running within 14 days of starting.",
   },
   {
-    q: "What about compliance (HIPAA, etc.)?",
-    a: "For dental and medical practices, HIPAA governance is built in. For other industries, standard data privacy practices apply.",
+    q: "What types of practices do you work with?",
+    a: "Dental practices, primary care clinics, urgent care centers, specialty practices, and health insurance plans. Any healthcare organization with a patient or member list that needs automated re-engagement.",
   },
   {
     q: "How quickly will we see results?",
-    a: "For reactivation systems, most businesses see the first campaigns running within 14 days and start recovering inactive customers in the first month. For AI governance engagements, assessment deliverables are typically ready within 2–4 weeks.",
+    a: "Most practices see the first recall campaigns running within 14 days and start recovering lapsed patients within the first 30–60 days. No-show rates typically improve within the first month once automated reminders are live.",
   },
   {
-    q: "How is this different from generic AI vendors or Big 4 consultants?",
-    a: "Generic AI vendors lack compliance expertise and don't build governance systems. Big 4 consultants advise but don't build operational systems. We do both: we engineer working reactivation and governance systems — at a fraction of the Big 4 cost.",
+    q: "How does this help with no-shows?",
+    a: "Automated appointment reminders go out at 7 days, 3 days, and 1 hour before each scheduled visit. This alone typically reduces no-show rates by 40–60% for practices we work with.",
   },
   {
-    q: "Can you help with AI governance during an acquisition or due diligence?",
-    a: "Yes. We conduct rapid AI governance diagnostics (2–4 weeks) that provide acquirers and investors with audit-ready documentation of your AI usage, risk posture, and compliance status. Addressing governance gaps before due diligence prevents valuation haircuts and deal friction.",
+    q: "Can you help with AI governance for a healthcare enterprise?",
+    a: "Yes. We offer full HIPAA + ISO 42001 governance frameworks for healthcare enterprises and health insurance plans. Governance engagements start with an AI Risk & Governance Assessment (2–4 weeks), followed by system design and implementation.",
   },
   {
-    q: "How do you work with existing compliance teams?",
-    a: "We operate as an extension of your team, not a replacement. If you have a compliance officer, legal counsel, or internal IT/security function, we plug in at the AI governance layer — the gap most compliance teams aren't staffed or trained to cover.",
-  },
-  {
-    q: "What does an engagement typically look like?",
-    a: "Reactivation engagements start with a 15-minute demo, then a scoped proposal. Most businesses are live within 2 weeks. Governance engagements start with an AI Risk & Governance Assessment (2–4 weeks), followed by system design and implementation.",
-  },
-  {
-    q: "Do you work with businesses that aren't using AI yet?",
-    a: "Absolutely. Our reactivation systems work for any business with a customer list — no prior AI experience needed. For governance, a framework built before AI deployment is significantly easier and less expensive than retrofitting governance onto systems already in production.",
+    q: "What does a typical engagement look like?",
+    a: "Start with a 60-minute Patient Growth Audit ($997). We identify your retention gaps, show you a live demo of the recall system, and deliver a scoped implementation plan. Most practices are fully live within 2 weeks of starting.",
   },
 ];
 

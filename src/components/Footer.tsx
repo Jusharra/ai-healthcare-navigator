@@ -11,13 +11,13 @@ const Footer = () => {
           </div>
           <div className="text-center md:text-left space-y-1">
             <p className="text-sm font-semibold text-foreground">
-              Reactivation Revenue Recovery Specialist
+              Automated Patient Growth Specialist
             </p>
             <p className="text-sm text-muted-foreground max-w-md">
-              Serving dental offices, restaurants, laundromats, auto repair, medical clinics, HVAC, plumbing, and high-foot-traffic businesses across Bakersfield and Fresno.
+              Serving dental offices, medical clinics, urgent care centers, and health insurance plans across Bakersfield and Fresno.
             </p>
             <p className="text-xs text-muted-foreground/70 pt-1">
-              We also provide AI governance audits for healthcare practices.{" "}
+              We also provide AI governance audits for healthcare enterprises.{" "}
               <a href="#services" className="underline hover:text-foreground transition-colors">Ask us.</a>
             </p>
           </div>

@@ -1,20 +1,20 @@
-import { Wrench, Globe, BadgeCheck } from "lucide-react";
+import { HeartPulse, Wrench, BadgeCheck } from "lucide-react";
 
 const reasons = [
   {
-    icon: Wrench,
-    title: "We Build AND Govern AI",
-    desc: "Most governance consultants advise — they don't build. We deploy operational AI systems and govern them with ISO 42001 frameworks. We understand both sides because we operate on both sides.",
+    icon: HeartPulse,
+    title: "Healthcare-Specific Systems",
+    desc: "Built for dental offices, medical clinics, and health insurance plans. Every system is HIPAA-compliant from day one, with patient data ownership and audit trails built in.",
   },
   {
-    icon: Globe,
-    title: "Regulated Industry Expertise",
-    desc: "We work across healthcare, construction, energy, and other regulated sectors. We understand the compliance frameworks, operational realities, and regulatory exposure that generic AI firms simply don't.",
+    icon: Wrench,
+    title: "We Build AND Govern",
+    desc: "Most vendors advise or build. We do both. We deploy the patient recall system and govern it with ISO 42001 and HIPAA frameworks — so you're covered operationally and for compliance.",
   },
   {
     icon: BadgeCheck,
     title: "ISO 42001 + ISO 27001 Certified",
-    desc: "Not just consultants with a framework — engineers with certifications. Your AI is governed from day one with audit-ready documentation and proven security controls.",
+    desc: "Not just consultants with a framework — engineers with certifications. HIPAA-ready documentation included. Your practice is audit-ready from day one.",
   },
 ];
 
@@ -27,7 +27,7 @@ const WhyUsSection = () => {
             Why First-Choice Cyber
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Operational vendors can't govern. Governance consultants can't build. We do both.
+            We don't just consult — we build HIPAA-compliant patient growth systems and govern them.
           </p>
         </div>
 
@@ -52,10 +52,10 @@ const WhyUsSection = () => {
             onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#e55a28"; }}
             onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#FF6B35"; }}
           >
-            Book Your Revenue Recovery Audit →
+            Book Your Patient Growth Audit →
           </a>
           <p className="text-sm text-muted-foreground mt-3">
-            Schedule Your Revenue Recovery Audit for $997 · Audit cost applies toward your full system
+            Schedule Your Patient Growth Audit for $997 · Credited toward full implementation
           </p>
         </div>
       </div>

@@ -8,7 +8,6 @@ import ServicesSection from "@/components/ServicesSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
-import HomeTechBanner from "@/components/HomeTechBanner";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -24,7 +23,6 @@ const Index = () => {
         <ServicesSection />
         <WhyUsSection />
         <FAQSection />
-        <HomeTechBanner />
         <CTASection />
       </main>
       <Footer />
