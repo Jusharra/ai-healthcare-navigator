@@ -6,7 +6,7 @@ import GovernanceScorecardSection from "./GovernanceScorecardSection";
 const track1 = [
   {
     icon: RefreshCw,
-    title: "24/7 Patient Recall Engine",
+    title: "24/7 Customer Recall Engine",
     desc: "Automated recall campaigns at 6, 12, and 18-month intervals. Birthday reminders, slow-day promotions, and missed-appointment follow-ups. SMS and email, running while your staff focuses on customer care.",
     result: "Recover lapsed customers and fill empty slots on autopilot.",
   },
