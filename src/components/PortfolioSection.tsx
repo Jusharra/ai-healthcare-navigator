@@ -33,7 +33,7 @@ const PortfolioSection = () => {
             See the Systems We Build
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Live demo sites built for healthcare practices. Click any card to see exactly what your patients would experience.
+            Live demo sites we built for healthcare practices. Click any card to see exactly what your patients would experience.
           </p>
         </div>
 
@@ -78,9 +78,9 @@ const PortfolioSection = () => {
           <p className="text-sm text-muted-foreground">
             Don't see your practice type?{" "}
             <a href="#audit-offers" className="text-accent font-semibold hover:text-accent/80 transition-colors">
-              Book a Patient Growth Audit
+              Book a Customer Growth Audit
             </a>{" "}
-            — we build for dental, medical, and health insurance organizations.
+            — we build for dental, medical, health insurance, construction, oil & gas, and energy organizations.
           </p>
         </div>
       </div>

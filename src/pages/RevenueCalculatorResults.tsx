@@ -17,7 +17,7 @@ interface ResultsData {
 }
 
 const CAL_LINK =
-  "https://cal.com/first-choicecyber/healthcare-practice-automation-systems";
+  "https://cal.com/first-choicecyber/patient-growth-audit";
 
 export default function RevenueCalculatorResults() {
   const navigate = useNavigate();

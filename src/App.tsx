@@ -10,6 +10,7 @@ import GovernanceScorecardResults from "./pages/GovernanceScorecardResults";
 import Resources from "./pages/Resources";
 import ResourceCapture from "./pages/ResourceCapture";
 import ResourceDownload from "./pages/ResourceDownload";
+import GovernanceAssessment from "./pages/GovernanceAssessment";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/:slug" element={<ResourceCapture />} />
           <Route path="/download/:slug" element={<ResourceDownload />} />
+          <Route path="/ai-governance-assessment" element={<GovernanceAssessment />} />
 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

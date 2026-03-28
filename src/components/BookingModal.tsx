@@ -1,7 +1,7 @@
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ReactNode } from "react";
 
-const DEFAULT_URL = "https://cal.com/first-choicecyber/healthcare-practice-automation-systems";
+const DEFAULT_URL = "https://cal.com/first-choicecyber/customer-growth-audit";
 
 interface BookingModalProps {
   children: ReactNode;

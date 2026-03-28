@@ -1,11 +1,11 @@
-import { ShieldCheck, Award, Database, Lock } from "lucide-react";
+import { ShieldCheck, Award, FileCheck, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const badges = [
   { icon: Award, text: "ISO 42001 Lead Auditor" },
   { icon: ShieldCheck, text: "ISO 27001 Lead Auditor" },
-  { icon: Database, text: "You Own Your Patient Data" },
-  { icon: Lock, text: "HIPAA-Compliant" },
+  { icon: FileCheck, text: "NIST AI RMF Aligned" },
+  { icon: Building2, text: "SAM.gov Registered" },
 ];
 
 const HeroSection = () => {
@@ -32,11 +32,11 @@ const HeroSection = () => {
 
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-foreground mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            Automated Patient Growth Systems{" "}
-            <span className="text-gradient">for Dental, Medical &amp; Health Insurance</span>
+            AI Governance as{" "}
+            <span className="text-gradient">Compliance Engineering</span>
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-            We build the systems that automatically re-engage lapsed patients, reduce no-shows, and fill your schedule — so you own the data, stay HIPAA-compliant, and control the revenue.
+            We build working technical systems, not policy documents, that achieve ISO 42001, NIST AI RMF, OSHA and HIPAA compliance for mid-market enterprises, healthcare organizations, and government contractors.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 Call Now (661) 489-8106
               </Button>
             </a>
-            <a href="#portfolio">
+            <a href="#services">
               <Button size="lg" variant="outline" className="font-semibold text-base px-8 py-6 border-primary/20 text-foreground hover:bg-primary/5">
                 See How It Works
               </Button>
@@ -55,9 +55,9 @@ const HeroSection = () => {
           {/* Stats bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {[
-              { value: "2 Weeks", label: "Average time to go live" },
-              { value: "100%", label: "You own your patient data" },
-              { value: "HIPAA", label: "Compliant by design" },
+              { value: "90 Days", label: "To audit readiness" },
+              { value: "5+", label: "Compliance frameworks covered" },
+              { value: "HIPAA", label: "Built-in by design" },
               { value: "10+", label: "Years systems engineering" },
             ].map((stat, idx) => (
               <div

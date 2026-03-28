@@ -6,10 +6,10 @@ const ProblemSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            The Patient Retention Problem
+            The Retention Problem
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Most practices focus on new patient acquisition while lapsed patients slip away unnoticed. The result? Empty slots, lost revenue, and preventable no-shows. We build systems that keep patients coming back automatically.
+            Most practices focus on new customer acquisition while lapsed customers slip away unnoticed. The result? Empty slots, lost revenue, and preventable no-shows. We build systems that keep customers coming back automatically.
           </p>
         </div>
 
@@ -19,7 +19,7 @@ const ProblemSection = () => {
             <iframe
               className="absolute inset-0 w-full h-full rounded-xl shadow-card"
               src="https://www.youtube.com/embed/Ssg57rD45o4"
-              title="The Patient Retention Problem"
+              title="The Retention Problem"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
@@ -33,11 +33,11 @@ const ProblemSection = () => {
               Operational Risk
             </div>
             <h3 className="font-display text-xl font-bold text-foreground mb-4">
-              Patients Lapsing Without Follow-Up
+              Customers Lapsing Without Follow-Up
             </h3>
             <ul className="space-y-4">
               {[
-                { icon: UserX, text: "No automated recall system for patients overdue for care" },
+                { icon: UserX, text: "No automated recall system for cstomers overdue for care" },
                 { icon: CalendarOff, text: "Missed follow-ups mean missed appointments and empty slots" },
                 { icon: AlertTriangle, text: "Empty hygiene and exam slots that could have been filled" },
                 { icon: Users, text: "Front desk overwhelmed with manual recall calls — or not making them at all" },
@@ -83,7 +83,7 @@ const ProblemSection = () => {
             onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#e55a28"; }}
             onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#FF6B35"; }}
           >
-            📞 Click to Call — Schedule Your Patient Growth Audit
+            📞 Click to Call — Schedule Your Customer Growth Audit
           </a>
           <p className="text-sm text-muted-foreground mt-3">
             (661) 489-8106 · No obligation · 60-min session available

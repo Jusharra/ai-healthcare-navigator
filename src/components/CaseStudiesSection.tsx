@@ -46,42 +46,80 @@ const studies: CaseStudy[] = [
     quote: "We cut our no-show rate in half. The system pays for itself every month.",
   },
   {
-    emoji: "🩺",
-    org: "Riverside Family Medicine",
-    type: "Primary Care Practice • 4 Providers",
+    emoji: "🏛️",
+    org: "Meridian Federal Solutions",
+    type: "Federal IT Services Contractor • 450 Employees",
     challenge:
-      "Patients not returning for annual wellness exams. Appointment slots consistently empty on certain days. No automated system to follow up after visits or remind patients about annual checkups. Front desk manually calling patients with low success rate.",
+      "A proposed GSA contract clause required AI incident reporting within 72 hours and documented compliance with risk, transparency, and privacy controls. No AI system inventory existed, no governance framework was in place, and no evidence pipeline had been built. The firm risked losing an $8M contract vehicle at renewal.",
     solution:
-      "Deployed automated patient recall targeting patients overdue for annual visits at 10, 12, and 14-month intervals. Appointment reminders at 48 hours and 2 hours before each visit. All patient data stored in practice-owned HIPAA-compliant database.",
+      "Built an AI governance infrastructure aligned to NIST AI RMF and ISO 42001. Completed a full AI system inventory across all active contract vehicles. Deployed automated evidence collection for continuous compliance documentation. Implemented a 72-hour incident response playbook with designated AI System Owners across business units.",
     results: [
-      "94 lapsed patients reactivated in 60 days",
-      "No-show rate reduced from 21% to 9%",
-      "$31,000 in recovered revenue (Q1)",
-      "Front desk freed from manual reminder calls",
+      "Contract vehicle retained at renewal",
+      "Full AI system inventory documented across 6 active contracts",
+      "72-hour incident response capability deployed",
+      "ISO 42001 gap assessment completed and remediated",
     ],
     impact:
-      "Practice now has full visibility into patient retention. Patient database owned by the practice — exportable for compliance reporting, valuation, or lending.",
+      "Firm can now respond to contracting officer AI compliance inquiries within 24 hours. Governance posture documented and reusable for new contract bids.",
     quote:
-      "Patients who hadn't been in for years started booking again. The system did what our front desk never had time to do.",
+      "We had 60 days to demonstrate AI governance capability or risk losing the contract. They built the system we needed.",
   },
   {
     emoji: "🏢",
-    org: "Central Valley Health Plan",
-    type: "Regional Health Insurance • 12,000 Members",
+    org: "Tri-County Regional Planning Commission",
+    type: "State Government Agency • AI in Public Operations",
     challenge:
-      "Low preventive care utilization impacting quality scores and HEDIS compliance. Members not completing annual wellness visits, screenings, or chronic condition follow-ups. No automated outreach for preventive care gaps.",
+      "Deployed AI tools for permit processing and infrastructure prioritization. State legislature passed new AI transparency requirements. No documentation of how models made decisions, no bias assessments, and no audit trail for AI-assisted determinations. Facing public records requests for AI decision logs that did not exist.",
     solution:
-      "Deployed automated member re-engagement campaigns targeting identified care gaps. SMS and email outreach for wellness visits, screenings, and chronic condition follow-ups tied to member-specific intervals. All member data stored in plan-owned database with full audit trail.",
+      "Deployed an AI governance framework aligned to NIST AI RMF. Built model documentation, explainability reports, and a bias assessment pipeline. Created audit-ready AI decision logs and a real-time risk register. Implemented governance dashboards for agency leadership.",
     results: [
-      "HEDIS preventive care rates improved by 18%",
-      "1,240 members re-engaged in preventive care (Q2)",
-      "Reduced compliance risk exposure",
-      "Member outreach automated across all care gap categories",
+      "Full compliance with state AI transparency requirements",
+      "All AI decision systems documented and risk-rated",
+      "3 public records requests fulfilled with complete documentation",
+      "Zero regulatory findings at legislative review",
     ],
     impact:
-      "Plan now has documented outreach records for compliance audits. Member engagement data owned by the plan — not locked in a vendor platform.",
+      "Agency leadership now has a real-time dashboard of AI risk posture. Governance documentation is defensible in public hearings and legislative inquiries.",
     quote:
-      "We went from reactive to proactive on member engagement. Our quality scores improved in a single quarter.",
+      "We had no idea what our exposure was until they mapped every system. Now we can answer any question about our AI in under an hour.",
+  },
+  {
+    emoji: "⚙️",
+    org: "NorthStar Software Group",
+    type: "Mid-Market SaaS Company • 600 Employees",
+    challenge:
+      "Deployed AI features across their product suite — recommendation engines, customer-facing chatbots, and automated decision tools — with no governance framework around any of it. Enterprise procurement teams began requiring ISO 42001 alignment in vendor questionnaires. Deals were stalling. The board requested an AI risk briefing and no documentation existed.",
+    solution:
+      "Built an ISO 42001-aligned AI governance operating model. Completed a full AI system inventory across all product lines. Named AI System Owners for each feature in production. Deployed automated evidence collection and a board-ready AI risk dashboard.",
+    results: [
+      "ISO 42001 readiness assessment completed in 6 weeks",
+      "AI inventory documented across 12 product features",
+      "Board AI risk briefing delivered with full governance posture",
+      "3 enterprise procurement questionnaires fulfilled with documented evidence",
+    ],
+    impact:
+      "Sales team now uses AI governance documentation as a competitive differentiator in enterprise deals. Board has continuous visibility into AI risk posture.",
+    quote:
+      "Enterprise deals were stalling on AI governance questions we couldn't answer. Now we close faster.",
+  },
+  {
+    emoji: "🛡️",
+    org: "Irongate Defense Systems",
+    type: "Defense Contractor • CMMC Level 2 Certified",
+    challenge:
+      "DoD program office required NIST AI RMF alignment for an AI-enabled analytics platform integrated into contract deliverables. No existing AI governance documentation. The program manager faced a contract modification requiring demonstrated AI risk management capability within 90 days or risk of default.",
+    solution:
+      "Deployed a NIST AI RMF-aligned governance framework scoped to AI systems on the contract. Completed a structured AI risk assessment for the analytics platform. Built an automated evidence pipeline. Produced a full contractor-deliverable governance documentation package.",
+    results: [
+      "NIST AI RMF alignment documented within 90 days",
+      "Contract modification requirement met before deadline",
+      "AI risk assessment package delivered to DoD program office",
+      "Ongoing evidence collection automated for future reviews",
+    ],
+    impact:
+      "Contractor now has reusable AI governance artifacts applicable to future DoD and federal engagements. Program manager has a documented risk posture defensible in program reviews.",
+    quote:
+      "The DoD wanted AI governance capability we'd never had to prove before. They built it — on time.",
   },
 ];
 
@@ -91,10 +129,10 @@ const CaseStudiesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Real Results for Healthcare Practices
+            Real Results Across Healthcare, Construction, Government, Oil & Gas &amp; Energy
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Measurable ROI across patient reactivation, no-show reduction, and revenue recovery for dental, medical, and health insurance organizations.
+            Measurable outcomes in patient reactivation, AI governance deployment, and compliance documentation across the three verticals we serve.
           </p>
         </div>
 
@@ -172,10 +210,10 @@ const CaseStudiesSection = () => {
             onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#e55a28"; }}
             onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#FF6B35"; }}
           >
-            Get Results Like These — Book Your Patient Growth Audit →
+            Get Results Like These — Book a Discovery Call →
           </a>
           <p className="text-sm text-muted-foreground mt-3">
-            Patient Growth Audit · $997 credited toward full implementation · No obligation
+            Healthcare · Government &amp; Contractors · Mid-Market Enterprise · No obligation
           </p>
         </div>
       </div>
